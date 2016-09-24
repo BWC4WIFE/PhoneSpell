@@ -6,7 +6,7 @@ Based on a dictionary file and a phone keypad standard, list all possible word c
 
 > 225563 => CALL-ME
 
-![](https://raw.githubusercontent.com/darciopacifico/phonespell/master/src/main/resources/phoneKeypad.png)
+![](https://raw.githubusercontent.com/darciopacifico/PhoneSpell/master/src/main/resources/phoneKeypad.png)
 
 *ITU International Standard Phone Keypad (ITU E.161)*
 
@@ -29,7 +29,7 @@ The whole solution was separated into four components:
 
 **Consumer**: The callback to be called at every word combination. The default implementation immediately prints the word found.
 
-![](https://raw.githubusercontent.com/darciopacifico/phonespell/master/src/main/resources/ClassDiagram.png)
+![](https://raw.githubusercontent.com/darciopacifico/PhoneSpell/master/src/main/resources/ClassDiagram.png)
 
 
 
