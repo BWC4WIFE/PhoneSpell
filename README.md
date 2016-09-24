@@ -13,7 +13,6 @@ Based on a dictionary file and a phone keypad standard, list all possible word c
 The solution was based on the Search Trie data structure, that is an efficient implementation of a symbol table for String as keys. This symbol table implementation is able to find the keys (words) in a sub-linear performance. The idea is to explore this ability to find the word combinations for phone numbers.
 
 Performance: Sub-linear.
-
 Memory usage: Constant.
 
 
