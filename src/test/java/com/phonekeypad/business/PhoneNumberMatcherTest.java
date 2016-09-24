@@ -62,12 +62,12 @@ public class PhoneNumberMatcherTest {
     @Test
     public void testNoSequentialSkip() {
         ResultHolder rh1 = new ResultHolder();
-        phoneMatcher.matches("080032820063823420", rh1);
+        phoneMatcher.matches("080022556322556345635234", rh1);
 
         Pattern sequentialDigitsPattern = Pattern.compile("^.*[2-9]{2,}.*$");
         Pattern cleanPhrasePattern = Pattern.compile("[^\\d.|^A-Z.]");
 
-        Assert.assertTrue(rh1.getResults().size() > 2000);
+        Assert.assertTrue(rh1.getResults().size() > 30);
 
         for (String phrase : rh1.getResults()) {
             String cleanPhrase = cleanPhrasePattern.matcher(phrase).replaceAll("");
@@ -85,7 +85,7 @@ public class PhoneNumberMatcherTest {
 
         phoneMatcher.matches("63-6-63-7-25", rh1);
 
-        Assert.assertThat(rh1.getResults(), hasItem("MD-6-MD-7-CL"));
+        Assert.assertThat(rh1.getResults(), hasItem("ME-6-NEPAL"));
         Assert.assertFalse(rh1.getResults().contains("ODOM-3-7-BK"));
         Assert.assertFalse(rh1.getResults().contains("MEN-6-ES-2-5"));
         Assert.assertFalse(rh1.getResults().contains("6-3-ON-DS-AL"));
