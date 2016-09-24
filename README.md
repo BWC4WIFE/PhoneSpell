@@ -4,8 +4,8 @@
 
 Given a dictionary file and a phone keypad numbers and letters pattern, list all possible word combinations for a given phone number.
 
-> Sample Phone Keypad
-> [![N|Solid](https://raw.githubusercontent.com/darciopacifico/1-800-challenge/master/src/main/resources/phoneKeypad.png)]()
+Sample Phone Keypad
+![](https://raw.githubusercontent.com/darciopacifico/1-800-challenge/master/src/main/resources/phoneKeypad.png)
 
 ### Design Approach
 
@@ -21,7 +21,7 @@ The whole solution was separated into four components:
 
 **Consumer**: The callback to be called at every word combination. The default implementation immediately prints the word found.
 
-[![N|Solid](https://raw.githubusercontent.com/darciopacifico/1-800-challenge/master/src/main/resources/ClassDiagram.png)]()
+![](https://raw.githubusercontent.com/darciopacifico/1-800-challenge/master/src/main/resources/ClassDiagram.png)
 
 
 
