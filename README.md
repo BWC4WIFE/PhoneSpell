@@ -9,13 +9,13 @@ The solution was based on the Search Trie data structure, that is an efficient i
 
 The whole solution was separated into four components:
 
-*ConsoleClient*: Handles the user interface, translates the console inputs to phone matcher requests. Other layers doesn't know the stdin/stdout details.
+**ConsoleClient**: Handles the user interface, translates the console inputs to phone matcher requests. Other layers doesn't know the stdin/stdout details.
 
-*PhoneNumberMatcher*: Core class of the solution. Interact with the Ternary Search Trie internal structure and algorithm to explore all possible word combinations. Implements the word combination rules. When some combination are found, the PhoneNumberMatcher call the Consumer implementation instance.
+**PhoneNumberMatcher**: Core class of the solution. Interact with the Ternary Search Trie internal structure and algorithm to explore all possible word combinations. Implements the word combination rules. When some combination are found, the PhoneNumberMatcher call the Consumer implementation instance.
 
-*Trie Nodes*: Represents the dictionary data, organized in a character level hierarchy structure, that efficiently allows the Matcher to navigate through all possible branch combinations.
+**Trie Nodes**: Represents the dictionary data, organized in a character level hierarchy structure, that efficiently allows the Matcher to navigate through all possible branch combinations.
 
-*Consumer*: The callback to be called at every word combination. The default implementation immediately prints the word found.
+**Consumer**: The callback to be called at every word combination. The default implementation immediately prints the word found.
 
 [![N|Solid](https://raw.githubusercontent.com/darciopacifico/1-800-challenge/master/src/main/resources/ClassDiagram.png)]()
 
