@@ -6,7 +6,7 @@ Given a dictionary file and a phone keypad numbers and letters pattern, list all
 
 Sample Phone Keypad
 
-[![N|Solid](https://raw.githubusercontent.com/darciopacifico/1-800-challenge/master/src/main/resources/phoneKeypad.png)]()
+(https://raw.githubusercontent.com/darciopacifico/1-800-challenge/master/src/main/resources/phoneKeypad.png)
 
 ### Design Approach
 
