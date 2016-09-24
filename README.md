@@ -1,12 +1,14 @@
-## 1-800-challenge
+## PhoneSpell
 
 ### About this Exercise
 
-Based on a dictionary file and a phone keypad standard, list all possible word combinations for a given phone number.
+Based on a dictionary file and a phone keypad standard, list all possible word combinations for a given phone number, like:
 
-![](https://raw.githubusercontent.com/darciopacifico/1-800-challenge/master/src/main/resources/phoneKeypad.png)
+> 225563 => CALL-ME
 
-**ITU International Standard Phone Keypad (ITU E.161)**
+![](https://raw.githubusercontent.com/darciopacifico/phonespell/master/src/main/resources/phoneKeypad.png)
+
+*ITU International Standard Phone Keypad (ITU E.161)*
 
 ### Design Approach
 
@@ -27,7 +29,7 @@ The whole solution was separated into four components:
 
 **Consumer**: The callback to be called at every word combination. The default implementation immediately prints the word found.
 
-![](https://raw.githubusercontent.com/darciopacifico/1-800-challenge/master/src/main/resources/ClassDiagram.png)
+![](https://raw.githubusercontent.com/darciopacifico/phonespell/master/src/main/resources/ClassDiagram.png)
 
 
 
