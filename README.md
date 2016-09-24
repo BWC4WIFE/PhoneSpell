@@ -14,7 +14,7 @@ The solution was based on the Search Trie data structure, that is an efficient i
 
 > Performance: Sub-linear.
 
-> Memory usage: Constant.
+> Memory Usage: Constant.
 
 
 The whole solution was separated into four components:
